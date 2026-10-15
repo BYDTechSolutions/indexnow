@@ -13,7 +13,7 @@ if (!site || !paths.length) {
   process.exit(2);
 }
 
-const found = await findKey('public');
+const found = await findKey('public').catch(() => null);
 if (!found) {
   console.error('No key file in public/. Run: npx indexnow key');
   process.exit(2);
