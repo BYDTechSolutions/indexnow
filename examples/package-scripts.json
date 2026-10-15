@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "indexnow:key": "indexnow key --public-dir public",
+    "indexnow:verify": "indexnow verify --site https://example.com",
+    "indexnow:dry": "indexnow submit --site https://example.com --dry-run",
+    "indexnow": "indexnow submit --site https://example.com"
+  }
+}
