@@ -1,6 +1,6 @@
 {
   "name": "@bydtech/indexnow",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tell Bing and the other IndexNow search engines which pages changed, from your sitemap or a list of paths.",
   "keywords": [
     "indexnow",

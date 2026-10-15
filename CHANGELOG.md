@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-10-16
+
+### Changed
+
+- Published from GitHub Actions through npm trusted publishing, with a
+  provenance attestation linking the package to this repository. No code changes.
+
 ## [0.1.0] - 2026-10-16
 
 ### Added
@@ -17,5 +24,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - A plain-language message for each IndexNow response code, and exit codes 0, 1 and 2.
 - API: `submit`, `prepareSubmission`, `readSitemap`, `parseSitemap`, `generateKey`, `findKey`, `writeKeyFile`, `verifyKey`, `isValidKey`, `describeStatus`.
 
-[Unreleased]: https://github.com/BYDTechSolutions/indexnow/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/BYDTechSolutions/indexnow/releases/tag/v0.1.0
+[Unreleased]: https://github.com/BYDTechSolutions/indexnow/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/BYDTechSolutions/indexnow/releases/tag/v0.1.1
+[0.1.0]: https://github.com/BYDTechSolutions/indexnow/tree/dd5b7578d6fe5e908ec839900f18d322d3418e47
