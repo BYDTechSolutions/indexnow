@@ -40,7 +40,7 @@ Submit only what changed:
 
 ```sh
 npx indexnow submit /pricing /blog/new-post --site https://example.com
-git diff --name-only HEAD~1 -- content/ | ./to-urls.sh | npx indexnow submit --stdin --site https://example.com
+printf '%s\n' /pricing /blog/new-post | npx indexnow submit --stdin --site https://example.com
 ```
 
 ## CLI reference
